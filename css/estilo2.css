@@ -1,0 +1,80 @@
+/* comentárioaaa*/
+header{                         /*aplicado ao header*/
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav{                            /*aplicado a todas as navegações*/
+    background-color: #444;
+    padding: 10px;
+}
+nav ul{                         /*aplicado a todas as listas desornenadas dentro de navegações*/
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+nav ul li{                      /*aplicado a todos os itens das listas desordenadas dentro de navegações */
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a{                   /*aplicado a todos os links dentro de todo item de toda lista desordenada de toda navegação*/
+    color: aliceblue;
+    text-decoration: none;
+}
+nav ul li:hover a{             /*aplica hover aos manés que o role de cima aplicaram outras coisas*/
+    color: rgb(22, 9, 197);
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+main{
+    padding: 1px;
+}
+section{
+    margin-bottom: 20px;
+}
+#tudoousla{
+    padding: 10px;
+    text-align: center;
+    
+}
+#container{
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+
+}
+#container .box{
+    text-align: center;
+    
+    display: inline-flex; /*irmão o tempo que demorei pra achar isso aqui e concertar essa bomba*/
+}
+
+#box1{
+background-color: rgb(187, 187, 205);
+}
+#box2{
+background-color:  rgb(211, 211, 163);    
+}
+#box3{
+background-color:  rgb(151, 136, 136);    
+}
+
+.box{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.box-texto{
+    text-align: center;
+}
