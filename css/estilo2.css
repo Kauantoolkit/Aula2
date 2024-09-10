@@ -54,7 +54,6 @@ section{
 }
 #container .box{
     text-align: center;
-    
     display: inline-flex; /*irmão o tempo que demorei pra achar isso aqui e concertar essa bomba*/
 }
 
@@ -72,8 +71,10 @@ background-color:  rgb(151, 136, 136);
     width: 300px;
     height: 100px;
     margin: 10px;
-    text-align: center;
     justify-content: center;
+
+    
+    
 }
 .box-texto{
     text-align: center;
